@@ -1,0 +1,120 @@
+{
+    "images": {
+        "title": {
+            "image": "mainmenu:textures/New_Reality.png",
+            "posX": -240,
+            "posY": 40,
+            "width": 480,
+            "height": 136,
+            "alignment": "top_center"
+        }
+    },
+
+    "labels": {
+        "mcTxt": {
+            "text": "Nyan~ 0.3 BETA",
+            "hoverText": "Nyan~ 0.3 BETA              OwO what is this? :3",
+            "posX": 1,
+            "posY": 1,
+            "color": -1,
+            "fontSize": 1.25,
+            "alignment": "top_left",
+            "action": {
+                "type": "refresh"
+            }
+        },
+        "mcVersion": {
+            "text": "Minecraft #mcversion#",
+            "posX": 1,
+            "posY": 11,
+            "color": -1,
+            "fontSize": 1.25,
+            "alignment": "top_left"
+        },
+        "fmlVersion": {
+            "text": "Forge #forgeversion#",
+            "posX": 1,
+            "posY": 21,
+            "color": -1,
+            "fontSize": 1.25,
+            "alignment": "top_left",
+            "hoverText": "Forge #forgeversion# (#modsloaded# Mods, #modsactive# Mods Active)",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        }
+    },
+
+    "buttons": {
+        "singleplayer": {
+            "text": "",
+            "posX": -230,
+            "posY": -280,
+            "width": 220,
+            "height": 290,
+            "texture": "mainmenu:textures/catgirls/singleplayer_cutie.png",
+            "imageWidth": 498,
+            "imageHeight": 676,
+            "alignment": "bottom_center",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+
+        "multiplayer": {
+            "text": "",
+            "posX": 2,
+            "posY": -275,
+            "width": 190,
+            "height": 290,
+            "texture": "mainmenu:textures/catgirls/multiplayer_cutie.png",
+            "imageWidth": 459,
+            "imageHeight": 676,
+            "alignment": "bottom_center",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+
+        "options": {
+            "text": "",
+            "posX": 32,
+            "posY": 128,
+            "width": 64,
+            "height": 64,
+            "texture": "mainmenu:textures/buttons/options.png",
+            "imageWidth": 507,
+            "imageHeight": 507,
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+
+
+        "quit": {
+            "text": "",
+            "posX": -96,
+            "posY": 128,
+            "width": 64,
+            "height": 64,
+            "texture": "mainmenu:textures/buttons/quit.png",
+            "imageWidth": 471,
+            "imageHeight": 512,
+            "alignment": "right_center",
+            "action": {
+                "type": "quit"
+            }
+        }
+    },
+    "other": {
+        "background": {
+            "image": "mainmenu:textures/bg.png",
+            "mode": "stretch"
+        }
+    }
+}
